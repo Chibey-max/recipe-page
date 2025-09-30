@@ -1,29 +1,40 @@
 /* @import url('https://fonts.google.com/specimen/Young+Serif');
 @import url('https://fonts.google.com/specimen/Outfit');
  */
-*{box-sizing: border-box;
+* {
     margin: 0;
     padding: 0;
-
+    box-sizing: border-box;
 }
 
 body {
+    margin: 0 auto;
     font-family: 'Young Serif', sans-serif;
     background-color: rgb(242, 231, 169);
-    width:100% ;
+    width: 100%;
     height: auto;
 }
 
-main{
-    transform: translate(250px , 200px);
-   background-color: whitesmoke;
-   width: 50%;
-   height: 100%;
-   padding: 30px;
-    
-
+main {
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column;
+    background-color: whitesmoke;
+    width: 25%;
+    padding: 30px;
 }
+
+.topimg {
+   border-radius: 20px;
+   margin-bottom: 15px;
+}
+
 .img {
-    width: 500px;
-    height: auto;
+    background-image: url(/images/image-omelette.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 420px 200px;
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
 }
